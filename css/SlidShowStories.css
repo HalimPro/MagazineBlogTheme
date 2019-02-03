@@ -1,0 +1,103 @@
+.story {
+    width: 25%;
+    background: none;
+    display: inline-block;
+    overflow: hidden;
+    outline: none;
+    text-align: center; 
+}
+
+.story_description {
+    padding-top: 2px;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: white;
+
+}
+
+.story img {
+    width: Calc(100% - 16px);
+    height: 190px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.category_name {
+    color: silver;
+    font-size: 13px;
+    float: left;
+}
+
+.title_story {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+
+}
+
+.author_name {
+    color: silver;
+    font-size: 13px;
+    display: block;
+}
+
+.element_time {
+    padding: 2px;
+    width: 60px; 
+    overflow: hidden;
+    float: left;
+}
+
+.element_time img {
+    width: 16px;
+    height: 16px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0); 
+    float: left;
+}
+
+.time_text {
+    padding: 2px 5px 5px 5px;
+    font-size: 10px;
+    color: silver;
+    float: left;
+}
+
+.element_time_right {
+    width: 50px;
+    float: right;
+}
+
+.slide_show_story {
+    width: 70%;
+    float: right;
+    padding: 15% 10px 10px 10px;
+
+}
+
+.slid_show_image {
+    width: 36%;
+    position: absolute;
+}
+
+.p_text_slide_show {
+    width: 40%;
+    line-height: 15px;
+}
+
+.slid_show_image_element {
+    width: 100%;
+    border-radius: 8px;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slid_show_image img {
+    display: inline-block;
+    border-radius: 8px;
+    height: 110%;
+    background: none;
+
+
+} 

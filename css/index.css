@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* 
+    -------------------------------------------------------------------------------
+
+    * Template Name: yaki Theme
+    * Template URI: 
+    * Author: Hmairi halim
+    * Author URI: https://themeforest.net/user/hmairi
+    * Description: Oki - Responsive HTML5 Landing Page blog / magazine Template
+    * Version: 1.0
+    * License: GPL v2 or later
+    * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+    * Tags: template, blog , magazine , creative , marketing, designer
+
+    -------------------------------------------------------------------------------
+*/
+
+body {
+    background: white;
+    overflow-x: 0;
+}
+
+/*---------------------------------------start video element---------------------------------------*/
+
+.video_element_div{
+    width: 60%;
+    height: 450px; 
+    position:fixed;
+    z-index: 999;
+    margin-left: 20%;
+    margin-top: -100%;
+    display: none;
+    transition: 0.2s;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.3);
+}
+.video_element_div img{
+    width:20px;
+    height: 20px;
+    position: absolute;
+    z-index: 999;
+    padding: 12px;
+    border-radius: 3px;
+    margin:7px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.3);
+    background: rgb(245, 0, 87);
+    cursor: pointer;
+}
+.video_element_div video{
+    margin: auto;
+    width: 100%;
+    height: 99%;
+}
+
+/*---------------------------------------end video element---------------------------------------*/
+
+/*---------------------------------------------------start section1---------------------------------------------------*/
+.section1 {
+    width: 100%;
+    height: 310px;
+    padding: 200px 0px 50px 0px;
+    background-image: url(../image/koi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 560px;
+}
+
+.section1_dev1 {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    height: 200px;
+}
+
+.section1_dev1_text {
+    font-weight: 600;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.section1_dev2 {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    padding: 20px 0px 10px 0px;
+}
+
+.section1_dev2_button1 {
+    padding: 20px;
+    border: 0;
+    background: white;
+    outline: none;
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.section1_dev2_button1 img {
+    width: 18px;
+    height: 18px;
+}
+/*---------------------------------------------------end section1---------------------------------------------------*/
+
+/*---------------------------------------------------start section2---------------------------------------------------*/
+
+.section2 {
+    width: 100%;
+    padding: 35px 0px 100px 0px;
+}
+
+.section2_dev1 {
+    margin: auto;
+    width: 80%;
+}
+
+.section2_dev2_header {
+    width: 80%;
+    padding: 10px 10px 30px 60px;
+
+}
+
+.header_textslidShow {
+    text-align: left;
+    display: block;
+}
+
+.section1_dev1_titre {
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 35px;
+    letter-spacing: .3px;
+}
+
+.section2_dev1_dev1 {
+    width: 98%;
+    padding: 5px;
+}
+
+.section2_dev1_dev1_dev {
+    width: 30%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 4%;
+    padding-bottom: 5px;
+
+}
+
+.section2_dev1_dev1_dev img {
+    width: 100%;
+    height: 120px;
+    box-shadow: 5px 10px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+
+}
+
+.section2_dev1_dev1_dev_description {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.section2_dev1_dev1_dev_titre {
+    padding: 15px 40px 15px 40px;
+    margin: auto;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.section2_dev1_dev1_dev_p {
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+#logo_text {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0px;
+
+}
+/*---------------------------------------------------end section2---------------------------------------------------*/
+
+/*---------------------------------------------------start section3---------------------------------------------------*/
+
+.section3 {
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3_dev1 {
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.section3_dev1_dev {
+    display: inline-block;
+    padding: 0px;
+    width: 45%; 
+}
+
+.section3_dev1_dev_element1 {
+    width: 520px;
+    height: 270px;
+    padding: 15px 5px 15px 5px;
+    background: white;
+    margin: auto;
+    margin-left: 3%;
+    margin-top: 2%;
+    border-radius: 7px;
+    box-shadow: 5px 10px 35px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-size: 550px 300px;
+}
+
+.section3_dev1_dev_element1_text {
+    max-width: 60%; 
+    float: left;
+    padding-left: 10px;
+
+}
+
+.btn_read {
+    padding-top: 65px;
+}
+
+.section3_dev1_dev_element1_text button {
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: white;
+    text-transform: capitalize;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.3);
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.section3_dev1_dev_element1_text button:hover{
+    background: #f50057;
+    color: white;
+    box-shadow: 0px 2px 25px #f50057;
+}
+.section3_dev1_dev_element1_categorie {
+    padding: 10px 25px 10px 25px;
+    float: left;
+    color: rgb(245, 0, 87);
+    text-transform: uppercase;
+    border-radius: 30px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.section3_dev1_dev_element1_p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.section3_dev1_dev_element2 {
+    width: 40%;
+    height: 300px;
+    padding: 5px;
+    background: white;
+    margin: auto;
+    margin-top: 2%;
+    cursor: pointer;
+    margin-left: 4%;
+    margin-top: 2%;
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 5px 10px 35px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*---------------------------------------------------end section3---------------------------------------------------*/
+
+/*---------------------------------------------------start section4---------------------------------------------------*/
+
+.section4 {
+    width: 100%;
+    background: rgb(250, 250, 250);
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_white_background {
+    background: white;
+    min-height: 400px;
+}
+
+/*class="section4 contact_section"*/
+.contact_section {
+    background-image: linear-gradient(to right, #f6f9fc 0%, rgb(250, 250, 250) 100%);
+}
+
+.description_text_contact {
+    float: none;
+    padding-top: 6%;
+}
+
+.section4_connected {
+    background: none;
+}
+
+.section4_dev1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.section4_dev1 img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+/*---------------------------------------------------end section4---------------------------------------------------*/
+
+/*---------------------------------------------------logo in footer (section4)------------------------------------------*/
+
+.logo-footer{
+    padding: 15px 20px 15px 20px;
+    background: rgb(245, 0, 87);
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.copy_right{
+    font-size: 13px;  
+}
+.copy_right span{
+    font-family: 'Shadows Into Light', cursive;
+    padding-left: 5px;
+}
+/*-------------------------------------------------------------------------------------------------------------*/

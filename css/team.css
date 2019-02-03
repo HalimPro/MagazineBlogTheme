@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+.membre_team{
+	width: 90%;  
+	text-align: center; 
+}
+.membre{
+	padding: 15px 5px 5px 5px;
+	background: white;
+	width: 20%; 
+	text-align: center;
+	display: inline-block;
+	margin-left: 3%;
+	border: 1px solid rgba(0,0,0,0.2);
+	/*box-shadow: 0px 5px 23px rgba(0,0,0,0.1);*/
+}
+.membre img{
+	width: 90px;
+	height:90px ; 
+	border-radius: 3px;
+	box-shadow: 0px 5px 23px rgba(0,0,0,0.3);
+	 
+}
+.membre_team_text{
+	padding: 5px; 
+}
+.name_membre{
+	background: white;
+	padding: 8px;
+	display: block; 
+
+/*padding: 15px 40px 15px 40px;*/
+margin: auto;font-weight: 700;
+text-transform: capitalize;
+line-height: 30px;
+text-transform: uppercase;
+font-size: 13px;
+letter-spacing: 1px;
+}
+.job_membre{
+	display: block;
+	padding: 8px;
+	font-size: 18px;
+	font-family: 'Shadows Into Light', cursive;
+}
+.membre_team_text .media_membre{
+	width: 18px;height: 18px;
+	display: inline-block;
+	margin-left: 8px;
+	background: white;
+	padding: 8px;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: 0px 5px 9px rgba(0,0,0,0);
+}
+
+@media (max-width: 1000px){
+	.membre_team{
+		text-align: center; 
+	}
+	.membre{ 
+		width: 55%; 
+		margin-top: 5%;
+	    padding: 30px 5px 5px 5px;
+
+	}
+}
